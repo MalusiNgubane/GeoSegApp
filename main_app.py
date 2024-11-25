@@ -95,12 +95,12 @@ def main_page():
         """, unsafe_allow_html=True)
     
     with col2:
-        if st.button("Segmentation Model", key="seg_model"):
+        if st.button("Semantic Segmentation Model", key="seg_model"):
             st.session_state.page = "segmentation_model"
             st.rerun()
     
     with col3:
-        if st.button("Height Model", key="height_model"):
+        if st.button("Height Segmentation Model", key="height_model"):
             st.session_state.page = "height_segmentation_model"
             st.rerun()
     
