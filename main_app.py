@@ -100,7 +100,7 @@ def main_page():
             st.rerun()
     
     with col3:
-        if st.button("Height Segmentation Model", key="height_model"):
+        if st.button("Height Estimation Model", key="height_model"):
             st.session_state.page = "height_segmentation_model"
             st.rerun()
     
