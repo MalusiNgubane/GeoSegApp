@@ -59,10 +59,10 @@ def company_page():
             "image": "Mieke Spaans.jpg"
         },
         {
-            "name": "David Brown",
-            "role": "Lead Developer",
-            "description": "Building robust solutions",
-            "image": "david.jpg"
+            "name": "Sithabiseni Mtshali",
+            "role": "Data Engineer",
+            "description": "Building robust Data Engineering solutions",
+            "image": "Sithabiseni Mtshali.jpg"
         },
         {
             "name": "Eve Davis",
