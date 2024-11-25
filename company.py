@@ -62,7 +62,7 @@ def company_page():
             "name": "Sithabiseni Mtshali",
             "role": "Data Engineer",
             "description": "Building robust Data Engineering solutions",
-            "image": "Sithabiseni Mtshali.PNG"
+            "image": "Sithabiseni Mtshali.png"
         },
         {
             "name": "Kamogelo Nkwana",
