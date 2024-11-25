@@ -62,13 +62,13 @@ def company_page():
             "name": "Sithabiseni Mtshali",
             "role": "Data Engineer",
             "description": "Building robust Data Engineering solutions",
-            "image": "Sithabiseni Mtshali.jpg"
+            "image": "Sithabiseni Mtshali.PNG"
         },
         {
-            "name": "Eve Davis",
+            "name": "Kamogelo Nkwana",
             "role": "Data Scientist",
             "description": "Creating intelligent algorithms",
-            "image": "eve.jpg"
+            "image": "kamo.jpg"
         },
         {
             "name": "Frank Wilson",
