@@ -17,7 +17,7 @@ def preprocess_image(image: Image.Image, target_size=(256, 256)):
     image_array = np.expand_dims(image_array, axis=0)
     return image_array
 
-def display_prediction_with_gradient(image, prediction, min_elevation=0, max_elevation=26795):
+def display_prediction_with_gradient(image, prediction, min_elevation=0, max_elevation=267.95):
     """
     Display original image and predicted mask with height gradient
     """
@@ -65,11 +65,10 @@ def height_segmentation_model_page():
         # Add height range inputs
         col1, col2 = st.columns(2)
         with col1:
-            min_height = st.number_input("Minimum Height (meters)", 
-                                       value=0, step=100)
+           min_height = st.number_input("Minimum Height (meters)", value=0.0, step=0.1)
         with col2:
-            max_height = st.number_input("Maximum Height (meters)", 
-                                       value=26795, step=100)
+           max_height = st.number_input("Maximum Height (meters)", value=267.95, step=0.1)
+
 
         # Preprocess the image for prediction
         processed_image = preprocess_image(image)
