@@ -53,10 +53,10 @@ def company_page():
             "image": "Lebogang.jpg"
         },
         {
-            "name": "Carol Williams",
+            "name": "Mieke Spaans",
             "role": "Head of Research",
             "description": "Advancing our AI capabilities",
-            "image": "carol.jpg"
+            "image": "Mieke Spaans.jpg"
         },
         {
             "name": "David Brown",
